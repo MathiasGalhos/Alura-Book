@@ -34,3 +34,8 @@ position: absolute;
 top: 100%;
 
 }
+
+.lista-menu__titulo, .lista-menu__item{
+    background-color: var(--branco);
+    padding: 1em;
+}
