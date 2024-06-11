@@ -32,10 +32,28 @@ padding: 1em;
 display: none;
 position: absolute;
 top: 100%;
-
 }
 
 .lista-menu__titulo, .lista-menu__item{
     background-color: var(--branco);
     padding: 1em;
 }
+
+.lista-menu__titulo{
+    color: var(--laranja);
+    font-style: 700;
+}
+
+.lista-menu__link{
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.container__botao{
+    display: none;
+}
+
